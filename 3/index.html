@@ -77,7 +77,10 @@
     </script>
     <script type="text/javascript">
     $(".counter").on("click", function(){
-      $(".counter").text("10");
+      counter = $(".counter").text();
+      counter = parseInt(counter);
+      result = counter + 10;
+      $(".counter").text(result);
     })
     </script>
     <script type="text/javascript">
