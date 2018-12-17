@@ -46,7 +46,7 @@
         <tr class="row" id="row-4">
           <td> 4 </td>
           <td> 4 </td>
-          <td> 4 </td>
+          <td class="cambia4"> 4 </td>
         </tr>
 
       </tbody>
@@ -83,6 +83,11 @@
     <script type="text/javascript">
     $("#row-3").on("click", function(){
       $("#row-3").css("background", "gray");
+    })
+    </script>
+    <script type="text/javascript">
+    $(".cambia4").on("click", function(){
+      $(".cambia4").css("background", "red");
     })
     </script>
   </body>
